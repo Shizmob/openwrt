@@ -147,7 +147,8 @@ oraybox,x3a)
 	;;
 tplink,archer-a6-v3|\
 tplink,archer-c6-v3|\
-tplink,archer-c6u-v1)
+tplink,archer-c6u-v1|\
+tplink,deco-m4r-v4)\
 	ucidef_set_led_netdev "lan" "LAN" "green:lan" "br-lan"
 	ucidef_set_led_netdev "wan" "WAN" "green:wan" "wan"
 	;;
